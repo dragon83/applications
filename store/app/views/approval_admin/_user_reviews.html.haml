@@ -1,0 +1,16 @@
+.bs-docs-grid
+  - @moderations.each do |moderation|
+    .row-fluid.show-grid
+      .span3
+        = "#{moderation.moderatable.user.email}"
+      .span5
+        - localVar = moderation.parsed_data[:attributes]
+        = "#{localVar.keys.first.humanize} : #{moderation.moderatable.send("#{localVar.keys.first}".to_sym)} --> #{localVar.values.first}"
+      .span4
+        %a.btn.btn-primary{"id" => "approve_#{moderation.id}","href" => "#{admin_approve_change_path(moderation.id)}.js", "data-remote" => "true","data-loading-text" => "..Processing..."}
+          Accept
+        %a.btn.btn-primary{"id" => "reject_#{moderation.id}","href" => admin_reject_change_path(moderation.id),"data-remote" => "true","data-loading-text" => "..Processing..."}
+          Reject
+
+
+

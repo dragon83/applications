@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_filter_attribute_id: 1
+  max: 1
+  min: 1
+  value: MyString
+
+two:
+  user_filter_attribute_id: 1
+  max: 1
+  min: 1
+  value: MyString

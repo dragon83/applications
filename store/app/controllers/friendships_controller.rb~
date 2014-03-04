@@ -1,0 +1,52 @@
+class FriendshipsController < ApplicationController
+
+  def index
+    @user = current_user
+  end
+
+
+  def new_friend_request
+    @friend = User.find(params[:friend_id])
+    @msg_drafts  = current_user.get_msg_drafts
+    @is_allowed_self_text = current_user.is_allowed_self_text?
+    @msg_type = "new_friend_request"
+    render :layout => false
+  end
+
+
+  def create_friend_request
+    to_user = User.find(params[:friend_id])
+    msg_content = params[:msg_content]
+    @modal = params[:modal_name]
+    @modal_name = "pravin first from parameter"
+    @frnd_req = FriendRequest.new(:from_user_id => current_user.id,:to_user_id => to_user.id)
+    @frnd_req.build_message(:msg_content => msg_content)  
+    @frnd_req.save
+
+  end
+
+
+
+  def create
+    @friendship = current_user.friendships.build(:friend_id => params[:friend_id])
+    puts ">>>>>>>>>>>>>>>>>>>>>>>"
+    puts @friendship
+    puts "<<<<<<<<<<<<<<<<<<<<<<<"
+    if @friendship.save
+      flash[:notice] = "Inrerest Shown."
+      redirect_to root_url
+    else
+      flash[:error] = "Error while creating an Interest."
+      redirect_to root_url
+    end
+  end
+
+  def destroy
+    @friendship = current_user.friendships.find(params[:id])
+    @friendship.destroy
+    flash[:notice] = "Removed from accepted members."
+    redirect_to current_user
+  end
+
+
+end

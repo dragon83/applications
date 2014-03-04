@@ -1,0 +1,67 @@
+class User < ActiveRecord::Base
+  require 'securerandom'
+  # Include default devise modules. Others available are:
+  # :token_authenticatable,
+  # :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable, :confirmable
+
+  # Setup accessible (or protected) attributes for your model
+  attr_accessible :email, :dob,:password, :password_confirmation, :remember_me  ,:height , :religion_id ,:caste_id ,:sub_caste_id, :gender
+
+  has_many :friendships
+  has_many :accepteds
+  has_many :friends, :through => :accepteds
+  #has_many :friends, :through => :friendships
+  has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
+  has_many :inverse_friends, :through => :inverse_friendships, :source => :user
+
+  has_many :user_roles
+  has_many :roles, through: :user_roles
+  has_and_belongs_to_many :degrees
+  has_and_belongs_to_many :hobbies
+
+  has_many :user_filters
+  has_many :send_interests, class_name: :interest, foreign_key: :sender_id
+  has_many :received_interests, class_name: :interest, foreign_key: :received_id
+  has_many :accepteds
+  has_one :user_profile ,autosave: true
+  has_one :user_text    ,autosave: true
+  before_create :set_auto_generated_attributes
+  #after_create :create_user_profile
+
+  def get_msg_drafts
+    return { "default" => "I Like You. Please accept #{email}",
+ 		"papa" => "Liked your profile for my Son. Please accept." 
+    }
+  end
+
+  def get_cancel_msg_drafts
+    return { "default" => "We are Sorry , we dont think our son/daughter is not the right match for you. We wish you best of luck in your search ."
+    }
+  end
+  def is_allowed_self_text?
+     return true
+  end
+
+  def set_auto_generated_attributes
+    self.code = SecureRandom.urlsafe_base64(20)
+    age = self.dob
+    self.build_user_profile(gender:self.gender,height:self.height,caste_id:self.caste_id,religion_id:self.religion_id,sub_caste_id:self.sub_caste_id,dob:self.dob,age:age(self.dob))
+    self.build_user_text
+  end
+
+  def age(dob)
+    now = Time.now.utc.to_date
+    now.year - dob.year - ((now.month > dob.month || (now.month == dob.month && now.day >= dob.day)) ? 0 : 1)
+  end
+
+  def primary_large_pic
+    user_profile.primary_large_pic
+  end
+
+  def primary_thumb_pic
+    user_profile.primary_thumb_pic
+  end
+
+end

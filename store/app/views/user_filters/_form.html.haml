@@ -1,0 +1,6 @@
+= simple_form_for @user_filter, :html => { :class => 'form-horizontal' } do |f|
+  = f.input :user_id
+  = f.input :filter_name
+  .form-actions
+    = f.button :submit, :class => 'btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), user_filters_path, :class => 'btn'

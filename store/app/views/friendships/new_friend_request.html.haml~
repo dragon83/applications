@@ -1,0 +1,22 @@
+.error_blk
+.bs-docs
+  .bs-docs-grid
+    .row-fluid.show-grid
+      = simple_form_for :Friendship , :url => "/express_interest?friend_id=#{@friend.id}",remote: true do |f|
+        .span2
+          Message to :
+          %a.thumnail
+            = image_tag(@friend.user_profile.primary_thumb_pic)
+            = @friend.email
+        .form-inputs
+          = select("msg_content", "msg", @msg_drafts.collect {|key,value| [ key, value ] }, { :include_blank => true })
+          = f.text_area :message,:rows => "10",:cols => 50 ,:disabled => @is_allowed_self_text
+
+        .form-actions
+          = f.submit "Express Interest" ,:class => 'btn-primary btn-large'
+    
+/ Placed at the end of the document so the pages load faster
+:javascript
+  $("#msg_content_msg").on('change',function(){
+      $("#Friendship_message").text($(this).val());
+  });

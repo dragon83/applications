@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  message_id: 1
+  accepted: 
+  declined: 
+  reply_message_id: 1
+  from_user_id: 1
+  to_user_id: 1
+
+two:
+  user_id: 1
+  message_id: 1
+  accepted: 
+  declined: 
+  reply_message_id: 1
+  from_user_id: 1
+  to_user_id: 1

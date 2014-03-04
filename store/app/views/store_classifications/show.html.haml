@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Description:
+  = @store_classification.description
+
+= link_to 'Edit', edit_store_classification_path(@store_classification)
+\|
+= link_to 'Back', store_classifications_path

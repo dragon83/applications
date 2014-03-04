@@ -1,0 +1,11 @@
+alert("<%=params[:friend_id]%>");
+
+alert($("#request_friendship_button_<%=params[:friend_id]%>").text());
+<%if @frnd_req.errors%>
+$('.error_blk').html('<%="<div class='alert alert-error'>#{@frnd_req.errors.first}</div>"%>');
+$('#myExpressInterestModal').modal('hide');
+<%else%>
+$('#myExpressInterestModal').modal('hide');
+$('#request_friendship_button_<%=params[:friend_id]%>').replaceWith('Interest Expressed Successfully');
+<%end%>
+$('#myExpressInterestModal').removeData('modal');

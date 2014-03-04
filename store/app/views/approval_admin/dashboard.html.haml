@@ -1,0 +1,29 @@
+-model_class = User
+.page-header
+  %h4=t '.title', :default => 'Users Changes Pending for Approvals'
+%table.table.table-striped
+  %thead
+    %tr
+      %th= model_class.human_attribute_name(:email)
+      %th= model_class.human_attribute_name(:code)
+      %th= model_class.human_attribute_name(:gender)
+      %th= model_class.human_attribute_name(:created_at)
+      %th=t '.actions', :default => t("helpers.actions")
+  %tbody
+    - @pending_moderation_users.each do |user|
+      %tr
+        %td= user.email
+        %td= user.code
+        %td= user.gender
+        %td=l user.created_at.to_date
+        %td
+          %a.btn.btn-primary{"data-toggle" => "modal", "data-target" => "#myReviewChangesModal",:href => "reviews?id=#{user.id}", :role => "button"} Review Changes
+          = link_to t('.destroy', :default => t("Discard All Changes")), user_profile_path(user.user_profile), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-mini btn-danger'
+
+#myReviewChangesModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+    %h3#myModalLabel Review Changes Pending for Approval
+  .modal-body
+  .modal-footer
+    %button.btn{"data-dismiss" => "modal"} Close

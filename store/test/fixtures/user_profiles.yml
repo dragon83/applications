@@ -1,0 +1,79 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  gender: false
+  dob: 2013-05-05
+  tob: 2013-05-05 00:21:48
+  pob: MyString
+  age: 1
+  salary: 1
+  caste_id: 1
+  sub_caste_id: 1
+  height: 1
+  religion_id: 1
+  affluence_id: 1
+  profession: 1
+  education: 1
+  work_city: 1
+  work_state: 1
+  work_country: 1
+  food_habit: 1
+  mangalik: 1
+  special_status: 1
+  specs: false
+  spec_power: 1
+  marital_status: 1
+  mother_tongue: 1
+  complexion: 1
+  body_type: 1
+  weight: 1
+  father_status: 1
+  mother_status: 1
+  father_profession: 1
+  mother_profession: 1
+  native: 1
+  family_values: 1
+  elder_brothers: 1
+  elder_sisters: 1
+  younger_brothers: 1
+  younger_sisters: 1
+
+two:
+  user_id: 1
+  gender: false
+  dob: 2013-05-05
+  tob: 2013-05-05 00:21:48
+  pob: MyString
+  age: 1
+  salary: 1
+  caste_id: 1
+  sub_caste_id: 1
+  height: 1
+  religion_id: 1
+  affluence_id: 1
+  profession: 1
+  education: 1
+  work_city: 1
+  work_state: 1
+  work_country: 1
+  food_habit: 1
+  mangalik: 1
+  special_status: 1
+  specs: false
+  spec_power: 1
+  marital_status: 1
+  mother_tongue: 1
+  complexion: 1
+  body_type: 1
+  weight: 1
+  father_status: 1
+  mother_status: 1
+  father_profession: 1
+  mother_profession: 1
+  native: 1
+  family_values: 1
+  elder_brothers: 1
+  elder_sisters: 1
+  younger_brothers: 1
+  younger_sisters: 1

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  special_status: MyText
+  own_status: MyText
+  family: MyText
+  profession: MyText
+
+two:
+  user_id: 1
+  special_status: MyText
+  own_status: MyText
+  family: MyText
+  profession: MyText

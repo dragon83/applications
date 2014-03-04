@@ -1,0 +1,19 @@
+%h1 Listing special_statuses
+
+%table
+  %tr
+    %th Name
+    %th
+    %th
+    %th
+
+  - @special_statuses.each do |special_status|
+    %tr
+      %td= special_status.name
+      %td= link_to 'Show', special_status
+      %td= link_to 'Edit', edit_special_status_path(special_status)
+      %td= link_to 'Destroy', special_status, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Special status', new_special_status_path

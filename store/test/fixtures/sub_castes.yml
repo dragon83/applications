@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  caste_id: 1
+  caste_name: MyString
+  religion_id: 1
+
+two:
+  caste_id: 1
+  caste_name: MyString
+  religion_id: 1

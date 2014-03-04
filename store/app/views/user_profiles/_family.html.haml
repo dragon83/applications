@@ -1,0 +1,41 @@
+
+.bs-docs-grid
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:affluence_id) + ':'
+      = @user_profile.affluence_id.nil? ? "" :  @user_profile.affluence.name
+    .span4
+      %strong= model_class.human_attribute_name(:family_values) + ':'
+      = @user_profile.father_status
+    .span4
+      %strong= model_class.human_attribute_name(:height) + ':'
+      = @user_profile.height.nil? ? '' : "#{(@user_profile.height.to_i/30.48).to_i} ft #{(@user_profile.height - ((@user_profile.height%30.48)*2.54)).to_i} inh"
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:father_status) + ':'
+      = @user_profile.father_status
+    .span4
+      %strong= model_class.human_attribute_name(:father_profession) + ':'
+      = @user_profile.father_profession
+    .span4
+      %strong= model_class.human_attribute_name(:native) + ':'
+      = @user_profile.native
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:mother_status) + ':'
+      = @user_profile.mother_status
+    .span4
+      %strong= model_class.human_attribute_name(:mother_profession) + ':'
+      = @user_profile.mother_profession
+    .span4
+      %strong= model_class.human_attribute_name(:native) + ':'
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:elder_brothers) + ':'
+      = @user_profile.elder_brothers
+    .span4
+      %strong= model_class.human_attribute_name(:elder_sisters) + ':'
+      = @user_profile.elder_sisters
+    .span4
+      %strong= model_class.human_attribute_name(:younger_brothers) + ':'
+      = @user_profile.younger_brothers

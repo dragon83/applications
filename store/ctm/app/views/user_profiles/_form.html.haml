@@ -1,0 +1,39 @@
+= simple_form_for @user_profile, :html => { :class => 'form-horizontal' } do |f|
+  = f.input :gender
+  = f.input :dob
+  = f.input :tob
+  = f.input :pob
+  = f.input :age
+  = f.input :salary
+  = f.input :caste_id
+  = f.input :sub_caste_id
+  = f.input :height
+  = f.input :religion_id
+  = f.input :affluence_id
+  = f.input :profession
+  = f.input :education
+  = f.input :work_city
+  = f.input :work_state
+  = f.input :food_habit
+  = f.input :mangalik
+  = f.input :special_status
+  = f.input :specs
+  = f.input :spec_power
+  = f.input :marital_status
+  = f.input :mother_tongue
+  = f.input :complexion
+  = f.input :body_type
+  = f.input :weight
+  = f.input :father_status
+  = f.input :mother_status
+  = f.input :father_profession
+  = f.input :mother_profession
+  = f.input :native
+  = f.input :family_values
+  = f.input :elder_brothers
+  = f.input :elder_sisters
+  = f.input :younger_brothers
+  = f.input :younger_sisters
+  .form-actions
+    = f.button :submit, :class => 'btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), user_profiles_path, :class => 'btn'

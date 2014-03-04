@@ -1,0 +1,21 @@
+.bs-docs-grid
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:body_type) + ':'
+      = @user_profile.body_type
+    .span4
+      %strong= model_class.human_attribute_name(:weight) + ':'
+      = @user_profile.weight
+    .span4
+      %strong= model_class.human_attribute_name(:height) + ':'
+      = @user_profile.height.nil? ? '' : "#{(@user_profile.height.to_i/30.48).to_i} ft #{((@user_profile.height/2.54).to_i - (((@user_profile.height/30.48).to_i)*12)).to_i} inch"
+  .row-fluid.show-grid
+    .span4
+      %strong= model_class.human_attribute_name(:complexion) + ':'
+      = @user_profile.complexion
+    .span4
+      %strong= model_class.human_attribute_name(:specs) + ':'
+      = @user_profile.specs
+    .span4
+      %strong= model_class.human_attribute_name(:special_status) + ':'
+      = @user_profile.special_status

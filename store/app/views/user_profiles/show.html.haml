@@ -1,0 +1,77 @@
+- model_class = UserProfile
+.page-header
+  %h4=t '.title', :default => model_class.model_name.human.titleize
+
+.bs-docs-example
+  .tabbable.tabs-left
+    %ul.nav.nav-tabs
+      %li.active
+        %a{"data-toggle" => "tab", :href => "#BASIC"} Basic Details
+      %li
+        %a{"data-toggle" => "tab", :href => "#PHYSICAL"} Physical Details
+      %li
+        %a{"data-toggle" => "tab", :href => "#FAMILY"} Family Details
+      %li
+        %a{"data-toggle" => "tab", :href => "#PARTNER"} Partner Preferences
+      %li
+        %a{"data-toggle" => "tab", :href => "#PARTNER"} Album
+    .tab-content
+      #BASIC.tab-pane.active
+        %a.btn.btn-primary{"data-toggle" => "modal", :href => "#myBasicModal", :role => "button"} Edit Basic Attributes
+        .thumbnails
+          = render :partial => "basic" ,:locals => { :model_class => model_class }
+
+      #PHYSICAL.tab-pane
+        %a.btn{"data-toggle" => "modal", :href => "#myPhysicalModal", :role => "button"} Edit Physical Attributes
+        = render :partial => "physical" ,:locals => { :model_class => model_class }
+
+      #FAMILY.tab-pane
+        %a.btn{"data-toggle" => "modal", :href => "#myFamilyModal", :role => "button"} Edit Family Attributes
+        = render :partial => "family",:locals => { :model_class => model_class }
+
+      #PARTNER.tab-pane
+        %a.btn{"data-toggle" => "modal", :href => "#myModal", :role => "button"} Edit Partner Preferences
+        = render :partial => "partner" ,:locals => { :model_class => model_class }
+
+#myBasicModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  = simple_form_for @user_profile, :html => { :class => 'form-horizontal' } do |f|
+    .modal-header
+      %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+      %h3#myModalLabel Basic Details
+    .modal-body
+      = render :partial => "edit_basic" ,:locals => {:f => f }
+    .modal-footer
+      %button.btn{"data-dismiss" => "modal"} Close
+      = f.submit "Update Basic Details", :class => 'btn btn-primary'
+
+
+#myPhysicalModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  = simple_form_for @user_profile, :html => { :class => 'form-horizontal' } do |f|
+    .modal-header
+      %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+      %h3#myModalLabel Physical Details
+    .modal-body
+      = render :partial => "edit_physical" ,:locals => {:f => f }
+    .modal-footer
+      %button.btn{"data-dismiss" => "modal"} Close
+      = f.submit "Update Physical Details", :class => 'btn btn-primary'
+
+#myFamilyModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  = simple_form_for @user_profile, :html => { :class => 'form-horizontal' } do |f|
+    .modal-header
+      %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+      %h3#myModalLabel Family Details
+    .modal-body
+      = render :partial => "edit_family" ,:locals => {:f => f }
+    .modal-footer
+      %button.btn{"data-dismiss" => "modal"} Close
+      = f.submit "Update Family Details", :class => 'btn btn-primary'
+
+
+.form-actions
+  = link_to t('.back', :default => t("helpers.links.back")), user_profiles_path, :class => 'btn'
+  = link_to t('.edit', :default => t("helpers.links.edit")), edit_user_profile_path(@user_profile), :class => 'btn'
+  = link_to t('.destroy', :default => t("helpers.links.destroy")), user_profile_path(@user_profile), :method => "delete", :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-danger'
+
+
+

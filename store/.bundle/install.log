@@ -1,0 +1,783 @@
+# Logfile created on 2014-01-08 15:04:07 +0530 by logger.rb/31641
+I, [2014-01-08T15:04:07.737171 #1656]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-08T15:04:13.052068 #1656]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-08T15:04:22.396155 #1656]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-08T15:04:40.379691 #1656]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-08T15:04:44.412865 #1656]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-08T15:04:49.757614 #1656]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-08T15:05:01.832395 #1656]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-08T15:05:05.797621 #1656]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-08T15:05:18.115017 #1656]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-08T15:05:30.289381 #1656]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-08T15:05:33.960376 #1656]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-08T15:05:37.546193 #1656]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-08T15:05:43.211277 #1656]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-08T15:05:50.939426 #1656]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-08T15:06:10.809023 #1656]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-08T15:06:17.415679 #1656]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-08T15:06:22.969945 #1656]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-08T15:06:28.411583 #1656]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-08T15:06:34.436733 #1656]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-08T15:06:38.783564 #1656]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-08T15:06:43.263706 #1656]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-08T15:06:51.340165 #1656]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-08T15:07:11.277364 #1656]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-08T15:07:17.135059 #1656]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-08T15:07:21.191650 #1656]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-08T15:07:29.951420 #1656]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-08T15:07:48.190301 #1656]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-08T15:07:52.304638 #1656]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-08T15:07:55.972830 #1656]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-08T15:07:59.144376 #1656]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-08T15:08:02.263875 #1656]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-08T15:08:10.445657 #1656]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-08T15:08:55.291062 #1656]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-08T15:09:05.498110 #1656]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-08T15:10:00.525635 #1656]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-08T15:10:05.753710 #1656]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-08T15:10:09.778612 #1656]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-08T15:10:13.434618 #1656]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-08T15:10:19.100849 #1656]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-08T15:10:23.635587 #1656]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-08T15:10:28.201060 #1656]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-08T15:10:56.384439 #1656]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-08T15:11:10.649687 #1656]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-08T15:11:15.210758 #1656]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-08T15:11:22.596201 #1656]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-08T15:11:26.629521 #1656]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-08T15:11:35.407408 #1656]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-08T15:11:59.935695 #1656]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-08T15:12:05.397003 #1656]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-08T15:12:09.329293 #1656]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-08T15:12:09.329835 #1656]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-08T15:12:12.824590 #1656]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-08T15:12:17.558909 #1656]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-08T15:12:34.597204 #1656]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-08T15:12:40.277608 #1656]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-08T15:12:55.767538 #1656]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-08T15:13:00.401557 #1656]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-08T15:13:10.024233 #1656]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-08T15:13:53.583410 #1656]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-08T15:13:58.889541 #1656]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-08T15:15:34.340511 #1656]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-08T15:15:39.997515 #1656]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-08T15:15:48.007997 #1656]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-08T15:15:53.140121 #1656]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-08T15:16:00.357411 #1656]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-08T15:16:09.213097 #1656]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-08T15:16:33.493899 #1656]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-08T15:16:40.684830 #1656]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-08T15:17:00.107800 #1656]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-08T15:17:05.855996 #1656]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-01-08T19:40:17.223717 #4318]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-08T19:40:17.224704 #4318]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-08T19:40:17.225206 #4318]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-08T19:40:17.225725 #4318]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-08T19:40:17.226268 #4318]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-08T19:40:17.226796 #4318]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-08T19:40:17.227292 #4318]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-08T19:40:17.227801 #4318]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-08T19:40:17.228276 #4318]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-08T19:40:17.228829 #4318]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-08T19:40:17.229395 #4318]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-08T19:40:17.229912 #4318]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-08T19:40:17.230438 #4318]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-08T19:40:17.230977 #4318]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-08T19:40:17.231514 #4318]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-08T19:40:17.232051 #4318]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-08T19:40:17.232574 #4318]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-08T19:40:17.233095 #4318]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-08T19:40:17.233588 #4318]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-08T19:40:17.234116 #4318]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-08T19:40:17.234742 #4318]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-08T19:40:17.235293 #4318]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-08T19:40:17.235826 #4318]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-08T19:40:17.236346 #4318]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-08T19:40:17.236954 #4318]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-08T19:40:17.237540 #4318]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-08T19:40:17.238080 #4318]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-08T19:40:17.238571 #4318]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-08T19:40:17.239252 #4318]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-08T19:40:23.498276 #4318]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-08T19:40:23.498968 #4318]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-08T19:40:23.499558 #4318]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-08T19:40:23.500155 #4318]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-08T19:40:23.500697 #4318]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-08T19:40:23.501254 #4318]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-08T19:40:23.501784 #4318]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-08T19:40:23.502331 #4318]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-08T19:40:23.502837 #4318]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-08T19:40:23.503380 #4318]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-08T19:40:23.503896 #4318]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-08T19:40:23.504418 #4318]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-08T19:40:23.504930 #4318]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-08T19:40:23.505447 #4318]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-08T19:40:23.505949 #4318]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-08T19:40:23.506480 #4318]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-08T19:40:23.507029 #4318]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-08T19:40:23.507525 #4318]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-08T19:40:23.508013 #4318]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-08T19:40:23.508557 #4318]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-08T19:40:23.509075 #4318]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-08T19:40:23.509575 #4318]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-08T19:40:23.510107 #4318]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-08T19:40:23.510621 #4318]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-08T19:40:23.511179 #4318]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-08T19:40:23.511666 #4318]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-08T19:40:23.530654 #4318]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-08T19:40:23.531545 #4318]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-08T19:40:23.532159 #4318]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-08T19:40:23.532631 #4318]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-08T19:40:23.533124 #4318]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-08T19:40:23.533663 #4318]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-08T19:40:23.534218 #4318]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-08T19:40:23.534708 #4318]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-08T19:40:23.535218 #4318]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-08T19:40:23.535693 #4318]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-08T19:40:23.536223 #4318]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-08T19:40:23.536741 #4318]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-08T19:40:23.537296 #4318]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-08T19:40:23.537773 #4318]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-08T19:40:23.538365 #4318]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-08T19:40:23.538860 #4318]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-01-10T19:25:35.797750 #18199]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:25:35.798453 #18199]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:25:35.798887 #18199]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:25:35.799456 #18199]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:25:35.799876 #18199]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:25:35.800367 #18199]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:25:35.800797 #18199]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:25:35.801303 #18199]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:25:35.801718 #18199]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:25:35.802234 #18199]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:25:35.802655 #18199]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:25:35.803174 #18199]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:25:35.803589 #18199]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:25:35.804089 #18199]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:25:35.804503 #18199]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:25:35.804971 #18199]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:25:35.805405 #18199]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:25:35.805840 #18199]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:25:35.806338 #18199]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:25:35.806748 #18199]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:25:35.807244 #18199]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:25:35.807653 #18199]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:25:35.808156 #18199]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:25:35.808568 #18199]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:25:35.809071 #18199]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:25:35.809490 #18199]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:25:35.809942 #18199]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:25:35.810409 #18199]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:25:35.810881 #18199]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:25:35.811351 #18199]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:25:35.811837 #18199]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:25:35.812485 #18199]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:25:35.813161 #18199]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:25:35.813773 #18199]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:25:35.814455 #18199]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:25:35.815036 #18199]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:25:35.815575 #18199]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:25:35.816157 #18199]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:25:35.816574 #18199]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:25:35.817029 #18199]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:25:35.817449 #18199]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:25:35.817861 #18199]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:25:35.818563 #18199]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:25:35.819057 #18199]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:25:35.819513 #18199]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:25:35.819929 #18199]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:25:35.820468 #18199]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:25:35.820896 #18199]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:25:35.821485 #18199]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:25:35.821897 #18199]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:25:35.822525 #18199]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:25:35.822946 #18199]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:25:35.823385 #18199]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:25:35.823854 #18199]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:25:35.824433 #18199]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:25:35.824975 #18199]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:25:35.825394 #18199]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:25:35.825804 #18199]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:25:35.826260 #18199]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:25:35.826675 #18199]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:25:35.827109 #18199]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:25:35.827617 #18199]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:25:35.828045 #18199]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-10T19:25:35.828455 #18199]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-10T19:25:35.828865 #18199]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-10T19:25:35.829303 #18199]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-10T19:25:35.829710 #18199]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-10T19:25:35.830167 #18199]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-10T19:25:35.830577 #18199]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-10T19:25:35.831003 #18199]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-10T19:25:35.831413 #18199]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-01-10T19:28:15.577393 #18236]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:28:15.578001 #18236]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:28:15.578492 #18236]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:28:15.578917 #18236]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:28:15.579359 #18236]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:28:15.579776 #18236]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:28:15.580211 #18236]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:28:15.580619 #18236]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:28:15.581044 #18236]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:28:15.581470 #18236]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:28:15.581874 #18236]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:28:15.582329 #18236]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:28:15.582733 #18236]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:28:15.583177 #18236]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:28:15.583583 #18236]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:28:15.583991 #18236]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:28:15.584445 #18236]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:28:15.584847 #18236]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:28:15.585289 #18236]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:28:15.585698 #18236]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:28:15.586132 #18236]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:28:15.586563 #18236]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:28:15.586970 #18236]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:28:15.587405 #18236]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:28:15.587806 #18236]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:28:15.588231 #18236]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:28:15.588629 #18236]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:28:15.589038 #18236]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:28:15.589460 #18236]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:28:15.589864 #18236]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:28:15.590315 #18236]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:28:15.590724 #18236]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:28:15.591148 #18236]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:28:15.591561 #18236]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:28:15.591958 #18236]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:28:15.592388 #18236]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:28:15.592792 #18236]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:28:15.593281 #18236]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:28:15.593690 #18236]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:28:15.594091 #18236]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:28:15.594527 #18236]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:28:15.594934 #18236]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:28:15.595364 #18236]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:28:15.595764 #18236]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:28:15.596190 #18236]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:28:15.596591 #18236]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:28:15.596994 #18236]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:28:15.597424 #18236]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:28:15.597821 #18236]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:28:15.598265 #18236]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:28:15.598677 #18236]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:28:15.599066 #18236]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:28:15.599484 #18236]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:28:15.599884 #18236]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:28:15.600315 #18236]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:28:15.600723 #18236]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:28:15.601152 #18236]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:28:15.601554 #18236]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:28:15.601958 #18236]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:28:15.602405 #18236]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:28:15.602805 #18236]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:28:15.603273 #18236]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:28:15.603677 #18236]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-10T19:28:15.604078 #18236]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-10T19:28:15.604513 #18236]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-10T19:28:15.604919 #18236]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-10T19:28:15.605340 #18236]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-10T19:28:15.605741 #18236]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-10T19:28:15.606152 #18236]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-10T19:28:15.606585 #18236]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-10T19:28:15.607015 #18236]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-01-10T19:30:23.074905 #18269]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:30:23.075595 #18269]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:30:23.076113 #18269]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:30:23.076638 #18269]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:30:23.077138 #18269]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:30:23.077678 #18269]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:30:23.078200 #18269]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:30:23.078748 #18269]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:30:23.079241 #18269]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:30:23.079772 #18269]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:30:23.080314 #18269]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:30:23.080966 #18269]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:30:23.081505 #18269]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:30:23.081999 #18269]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:30:23.082545 #18269]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:30:23.083059 #18269]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:30:23.083604 #18269]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:30:23.084102 #18269]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:30:23.084648 #18269]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:30:23.085177 #18269]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:30:23.085718 #18269]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:30:23.086265 #18269]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:30:23.086804 #18269]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:30:23.087298 #18269]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:30:23.087810 #18269]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:30:23.088302 #18269]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:30:23.088800 #18269]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:30:23.089290 #18269]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:30:23.089812 #18269]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:30:23.090341 #18269]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:30:23.090850 #18269]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:30:23.091381 #18269]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:30:23.091885 #18269]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:30:23.092375 #18269]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:30:23.092896 #18269]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:30:23.093451 #18269]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:30:23.094066 #18269]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:30:23.094643 #18269]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:30:23.095130 #18269]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:30:23.095639 #18269]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:30:23.096179 #18269]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:30:23.096688 #18269]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:30:23.097209 #18269]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:30:23.097721 #18269]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:30:23.098259 #18269]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:30:23.098766 #18269]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:30:23.099266 #18269]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:30:23.099786 #18269]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:30:23.100269 #18269]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:30:23.100790 #18269]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:30:23.101283 #18269]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:30:23.101819 #18269]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:30:23.102331 #18269]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:30:23.102855 #18269]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:30:23.103352 #18269]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:30:23.103878 #18269]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:30:23.104368 #18269]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:30:23.104886 #18269]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:30:23.105377 #18269]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:30:23.105917 #18269]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:30:23.106420 #18269]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:30:23.106959 #18269]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:30:23.107453 #18269]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+E, [2014-01-10T19:30:33.353586 #18269] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin:/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin:/home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin:/home/pravin/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/gems/rmagick-2.13.2 for inspection.
+Results logged to /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/extensions/x86_64-linux/1.9.1/rmagick-2.13.2/gem_make.out
+
+/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:89:in `run'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/tempfile.rb:320:in `open'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:160:in `chdir'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:160:in `block in build_extension'  \n<internal:prelude>:10:in `synchronize'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:195:in `each'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/installer.rb:677:in `build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/installer.rb:232:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:95:in `block in install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `each'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `each'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin/bundle:23:in `load'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin/bundle:23:in `<main>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin/ruby_executable_hooks:15:in `eval'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-10T19:32:26.533361 #18326]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:32:26.534136 #18326]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:32:26.534813 #18326]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:32:26.535443 #18326]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:32:26.535929 #18326]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:32:26.536476 #18326]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:32:26.536922 #18326]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:32:26.537387 #18326]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:32:26.537851 #18326]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:32:26.538357 #18326]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:32:26.538845 #18326]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:32:26.539314 #18326]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:32:26.539769 #18326]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:32:26.540204 #18326]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:32:26.540680 #18326]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:32:26.541114 #18326]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:32:26.541620 #18326]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:32:26.542064 #18326]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:32:26.542544 #18326]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:32:26.542984 #18326]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:32:26.543441 #18326]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:32:26.543883 #18326]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:32:26.544363 #18326]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:32:26.544813 #18326]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:32:26.545266 #18326]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:32:26.545713 #18326]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:32:26.546178 #18326]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:32:26.546664 #18326]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:32:26.547130 #18326]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:32:26.547580 #18326]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:32:26.548002 #18326]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:32:26.548467 #18326]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:32:26.549180 #18326]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:32:26.549909 #18326]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:32:26.550636 #18326]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:32:26.551353 #18326]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:32:26.551946 #18326]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:32:26.552398 #18326]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:32:26.552890 #18326]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:32:26.553362 #18326]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:32:26.553827 #18326]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:32:26.554309 #18326]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:32:26.554777 #18326]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:32:26.555221 #18326]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:32:26.555698 #18326]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:32:26.556160 #18326]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:32:26.556625 #18326]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:32:26.557068 #18326]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:32:26.557524 #18326]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:32:26.557968 #18326]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:32:26.558437 #18326]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:32:26.558885 #18326]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:32:26.559332 #18326]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:32:26.559789 #18326]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:32:26.560238 #18326]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:32:26.560710 #18326]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:32:26.561154 #18326]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:32:26.561597 #18326]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:32:26.562020 #18326]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:32:26.562506 #18326]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:32:26.562965 #18326]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:32:26.563457 #18326]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:32:26.563911 #18326]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-10T19:32:26.564362 #18326]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-10T19:32:26.564830 #18326]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-10T19:32:26.565285 #18326]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-10T19:32:26.565751 #18326]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-10T19:32:26.566206 #18326]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-10T19:32:26.566684 #18326]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-10T19:32:26.567128 #18326]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-10T19:32:26.567586 #18326]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-01-10T19:36:56.076820 #18537]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:36:56.077486 #18537]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:36:56.078035 #18537]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:36:56.078528 #18537]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:36:56.079059 #18537]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:36:56.079529 #18537]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:36:56.080056 #18537]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:36:56.080524 #18537]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:36:56.081057 #18537]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:36:56.081525 #18537]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:36:56.082047 #18537]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:36:56.082528 #18537]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:36:56.083071 #18537]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:36:56.083527 #18537]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:36:56.084043 #18537]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:36:56.084467 #18537]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:36:56.085020 #18537]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:36:56.085506 #18537]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:36:56.086034 #18537]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:36:56.086500 #18537]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:36:56.087038 #18537]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:36:56.087490 #18537]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:36:56.087958 #18537]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:36:56.088446 #18537]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:36:56.088926 #18537]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:36:56.089420 #18537]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:36:56.089869 #18537]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:36:56.090358 #18537]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:36:56.090829 #18537]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:36:56.091314 #18537]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:36:56.091759 #18537]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:36:56.092269 #18537]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:36:56.092714 #18537]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:36:56.093325 #18537]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:36:56.093783 #18537]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:36:56.094308 #18537]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:36:56.094758 #18537]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:36:56.095266 #18537]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:36:56.095716 #18537]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:36:56.096231 #18537]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:36:56.096681 #18537]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:36:56.097260 #18537]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:36:56.098030 #18537]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:36:56.098779 #18537]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:36:56.099299 #18537]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:36:56.099753 #18537]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:36:56.100251 #18537]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:36:56.100703 #18537]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:36:56.101181 #18537]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:36:56.101688 #18537]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:36:56.102205 #18537]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:36:56.102662 #18537]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:36:56.103163 #18537]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:36:56.103611 #18537]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:36:56.104188 #18537]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:36:56.104636 #18537]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:36:56.105111 #18537]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:36:56.105556 #18537]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:36:56.106063 #18537]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:36:56.106527 #18537]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:36:56.107068 #18537]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:36:56.107563 #18537]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:36:56.108082 #18537]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+E, [2014-01-10T19:36:56.800968 #18537] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin:/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin:/home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin:/home/pravin/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pravin/.rvm/rubies/ruby-1.9.3-p448/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/gems/rmagick-2.13.2 for inspection.
+Results logged to /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/extensions/x86_64-linux/1.9.1/rmagick-2.13.2/gem_make.out
+
+/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:89:in `run'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/tempfile.rb:320:in `open'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:160:in `chdir'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:160:in `block in build_extension'  \n<internal:prelude>:10:in `synchronize'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:195:in `each'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/installer.rb:677:in `build_extensions'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/installer.rb:232:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:95:in `block in install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `each'  \n/home/pravin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `each'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin/bundle:23:in `load'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@global/bin/bundle:23:in `<main>'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin/ruby_executable_hooks:15:in `eval'  \n/home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-10T19:40:52.831139 #22232]  INFO -- : 0:  rake (10.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rake-10.1.0.gemspec
+I, [2014-01-10T19:40:52.831777 #22232]  INFO -- : 0:  i18n (0.6.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/i18n-0.6.5.gemspec
+I, [2014-01-10T19:40:52.832262 #22232]  INFO -- : 0:  multi_json (1.8.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-10T19:40:52.832717 #22232]  INFO -- : 0:  activesupport (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activesupport-3.2.11.gemspec
+I, [2014-01-10T19:40:52.833152 #22232]  INFO -- : 0:  builder (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/builder-3.0.4.gemspec
+I, [2014-01-10T19:40:52.833600 #22232]  INFO -- : 0:  activemodel (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activemodel-3.2.11.gemspec
+I, [2014-01-10T19:40:52.834015 #22232]  INFO -- : 0:  erubis (2.7.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/erubis-2.7.0.gemspec
+I, [2014-01-10T19:40:52.834481 #22232]  INFO -- : 0:  journey (1.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/journey-1.0.4.gemspec
+I, [2014-01-10T19:40:52.834893 #22232]  INFO -- : 0:  rack (1.4.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-1.4.5.gemspec
+I, [2014-01-10T19:40:52.835306 #22232]  INFO -- : 0:  rack-cache (1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-cache-1.2.gemspec
+I, [2014-01-10T19:40:52.835737 #22232]  INFO -- : 0:  rack-test (0.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-10T19:40:52.836144 #22232]  INFO -- : 0:  hike (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hike-1.2.3.gemspec
+I, [2014-01-10T19:40:52.836577 #22232]  INFO -- : 0:  tilt (1.4.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T19:40:52.837008 #22232]  INFO -- : 0:  sprockets (2.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sprockets-2.2.2.gemspec
+I, [2014-01-10T19:40:52.837425 #22232]  INFO -- : 0:  actionpack (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionpack-3.2.11.gemspec
+I, [2014-01-10T19:40:52.837839 #22232]  INFO -- : 0:  mime-types (1.25.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mime-types-1.25.1.gemspec
+I, [2014-01-10T19:40:52.838285 #22232]  INFO -- : 0:  polyglot (0.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-10T19:40:52.838730 #22232]  INFO -- : 0:  treetop (1.4.15) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/treetop-1.4.15.gemspec
+I, [2014-01-10T19:40:52.839134 #22232]  INFO -- : 0:  mail (2.4.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/mail-2.4.4.gemspec
+I, [2014-01-10T19:40:52.839586 #22232]  INFO -- : 0:  actionmailer (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/actionmailer-3.2.11.gemspec
+I, [2014-01-10T19:40:52.839991 #22232]  INFO -- : 0:  arel (3.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/arel-3.0.3.gemspec
+I, [2014-01-10T19:40:52.840404 #22232]  INFO -- : 0:  tzinfo (0.3.38) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-10T19:40:52.840818 #22232]  INFO -- : 0:  activerecord (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activerecord-3.2.11.gemspec
+I, [2014-01-10T19:40:52.841223 #22232]  INFO -- : 0:  activeresource (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/activeresource-3.2.11.gemspec
+I, [2014-01-10T19:40:52.841654 #22232]  INFO -- : 0:  atomic (1.1.14) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/atomic-1.1.14.gemspec
+I, [2014-01-10T19:40:52.842061 #22232]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-10T19:40:52.842512 #22232]  INFO -- : 0:  bundler (1.5.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-10T19:40:52.842921 #22232]  INFO -- : 0:  cancan (1.6.10) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/cancan-1.6.10.gemspec
+I, [2014-01-10T19:40:52.843352 #22232]  INFO -- : 0:  json (1.8.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/json-1.8.1.gemspec
+I, [2014-01-10T19:40:52.843769 #22232]  INFO -- : 0:  carrierwave (0.9.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/carrierwave-0.9.0.gemspec
+I, [2014-01-10T19:40:52.844171 #22232]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-10T19:40:52.844598 #22232]  INFO -- : 0:  execjs (2.0.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/execjs-2.0.2.gemspec
+I, [2014-01-10T19:40:52.845002 #22232]  INFO -- : 0:  coffee-script (2.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-10T19:40:52.845413 #22232]  INFO -- : 0:  rack-ssl (1.3.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-01-10T19:40:52.845831 #22232]  INFO -- : 0:  rdoc (3.12.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-10T19:40:52.846260 #22232]  INFO -- : 0:  thor (0.18.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thor-0.18.1.gemspec
+I, [2014-01-10T19:40:52.846696 #22232]  INFO -- : 0:  railties (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/railties-3.2.11.gemspec
+I, [2014-01-10T19:40:52.847110 #22232]  INFO -- : 0:  coffee-rails (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-01-10T19:40:52.847573 #22232]  INFO -- : 0:  columnize (0.3.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/columnize-0.3.6.gemspec
+I, [2014-01-10T19:40:52.848011 #22232]  INFO -- : 0:  commonjs (0.2.7) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/commonjs-0.2.7.gemspec
+I, [2014-01-10T19:40:52.848434 #22232]  INFO -- : 0:  country_select (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/country_select-1.2.0.gemspec
+I, [2014-01-10T19:40:52.848845 #22232]  INFO -- : 0:  daemons (1.1.9) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T19:40:52.849258 #22232]  INFO -- : 0:  debugger-linecache (1.2.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-01-10T19:40:52.849705 #22232]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-01-10T19:40:52.850110 #22232]  INFO -- : 0:  debugger (1.6.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/debugger-1.6.2.gemspec
+I, [2014-01-10T19:40:52.850590 #22232]  INFO -- : 0:  orm_adapter (0.5.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-01-10T19:40:52.851009 #22232]  INFO -- : 0:  thread_safe (0.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-10T19:40:52.851429 #22232]  INFO -- : 0:  warden (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/warden-1.2.3.gemspec
+I, [2014-01-10T19:40:52.851843 #22232]  INFO -- : 0:  devise (3.2.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/devise-3.2.2.gemspec
+I, [2014-01-10T19:40:52.852250 #22232]  INFO -- : 0:  eventmachine (1.0.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T19:40:52.852682 #22232]  INFO -- : 0:  haml (4.1.0.alpha.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-01-10T19:40:52.853129 #22232]  INFO -- : 0:  haml-rails (0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/haml-rails-0.4.gemspec
+I, [2014-01-10T19:40:52.853563 #22232]  INFO -- : 0:  rails (3.2.11) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rails-3.2.11.gemspec
+I, [2014-01-10T19:40:52.853970 #22232]  INFO -- : 0:  has_moderated (1.2.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/has_moderated-1.2.3.gemspec
+I, [2014-01-10T19:40:52.854405 #22232]  INFO -- : 0:  hpricot (0.8.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/hpricot-0.8.6.gemspec
+I, [2014-01-10T19:40:52.854820 #22232]  INFO -- : 0:  sexp_processor (4.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-01-10T19:40:52.855224 #22232]  INFO -- : 0:  ruby_parser (3.1.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-01-10T19:40:52.855654 #22232]  INFO -- : 0:  html2haml (1.0.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/html2haml-1.0.1.gemspec
+I, [2014-01-10T19:40:52.856057 #22232]  INFO -- : 0:  jquery-rails (3.0.4) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-10T19:40:52.856474 #22232]  INFO -- : 0:  less (2.4.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-2.4.0.gemspec
+I, [2014-01-10T19:40:52.856874 #22232]  INFO -- : 0:  less-rails (2.4.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/less-rails-2.4.2.gemspec
+I, [2014-01-10T19:40:52.857312 #22232]  INFO -- : 0:  libv8 (3.16.14.3) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-01-10T19:40:52.857735 #22232]  INFO -- : 0:  ref (1.0.5) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/ref-1.0.5.gemspec
+I, [2014-01-10T19:41:07.997514 #22232]  INFO -- : 0:  rmagick (2.13.2) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/rmagick-2.13.2.gemspec
+I, [2014-01-10T19:41:07.998313 #22232]  INFO -- : 0:  sass (3.2.12) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-3.2.12.gemspec
+I, [2014-01-10T19:41:07.998905 #22232]  INFO -- : 0:  sass-rails (3.2.6) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sass-rails-3.2.6.gemspec
+I, [2014-01-10T19:41:07.999507 #22232]  INFO -- : 0:  simple_form (2.1.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/simple_form-2.1.0.gemspec
+I, [2014-01-10T19:41:08.000059 #22232]  INFO -- : 0:  sqlite3 (1.3.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/sqlite3-1.3.8.gemspec
+I, [2014-01-10T19:41:08.000599 #22232]  INFO -- : 0:  therubyracer (0.12.0) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/therubyracer-0.12.0.gemspec
+I, [2014-01-10T19:41:08.001101 #22232]  INFO -- : 0:  thin (1.6.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/thin-1.6.1.gemspec
+I, [2014-01-10T19:41:08.001625 #22232]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-01-10T19:41:08.002123 #22232]  INFO -- : 0:  uglifier (2.3.1) from /home/pravin/.rvm/gems/ruby-1.9.3-p448@clicktomarry/specifications/uglifier-2.3.1.gemspec
+I, [2014-02-10T20:11:00.485119 #18017]  INFO -- : 0:  rake (10.1.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rake-10.1.0.gemspec
+I, [2014-02-10T20:11:00.486283 #18017]  INFO -- : 0:  i18n (0.6.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/i18n-0.6.5.gemspec
+I, [2014-02-10T20:11:00.490315 #18017]  INFO -- : 0:  multi_json (1.8.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-02-10T20:11:31.365701 #18017]  INFO -- : 0:  activesupport (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activesupport-3.2.11.gemspec
+I, [2014-02-10T20:11:56.908189 #18017]  INFO -- : 0:  builder (3.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/builder-3.0.4.gemspec
+I, [2014-02-10T20:12:14.597306 #18017]  INFO -- : 0:  activemodel (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activemodel-3.2.11.gemspec
+I, [2014-02-10T20:12:14.599079 #18017]  INFO -- : 0:  erubis (2.7.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-10T20:12:40.973297 #18017]  INFO -- : 0:  journey (1.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/journey-1.0.4.gemspec
+I, [2014-02-10T20:12:58.866964 #18017]  INFO -- : 0:  rack (1.4.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-1.4.5.gemspec
+I, [2014-02-10T20:13:22.332070 #18017]  INFO -- : 0:  rack-cache (1.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-cache-1.2.gemspec
+I, [2014-02-10T20:13:22.333541 #18017]  INFO -- : 0:  rack-test (0.6.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-10T20:13:22.334480 #18017]  INFO -- : 0:  hike (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-10T20:13:22.334963 #18017]  INFO -- : 0:  tilt (1.4.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-10T20:13:48.524757 #18017]  INFO -- : 0:  sprockets (2.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sprockets-2.2.2.gemspec
+I, [2014-02-10T20:14:18.380752 #18017]  INFO -- : 0:  actionpack (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/actionpack-3.2.11.gemspec
+I, [2014-02-10T20:14:44.913032 #18017]  INFO -- : 0:  mime-types (1.25.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-10T20:14:44.915158 #18017]  INFO -- : 0:  polyglot (0.3.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-10T20:14:44.915980 #18017]  INFO -- : 0:  treetop (1.4.15) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-10T20:15:03.837308 #18017]  INFO -- : 0:  mail (2.4.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/mail-2.4.4.gemspec
+I, [2014-02-10T20:15:24.970790 #18017]  INFO -- : 0:  actionmailer (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/actionmailer-3.2.11.gemspec
+I, [2014-02-10T20:15:41.520644 #18017]  INFO -- : 0:  arel (3.0.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/arel-3.0.3.gemspec
+I, [2014-02-10T20:15:41.523646 #18017]  INFO -- : 0:  tzinfo (0.3.38) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-10T20:16:11.652942 #18017]  INFO -- : 0:  activerecord (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activerecord-3.2.11.gemspec
+I, [2014-02-10T20:16:37.449357 #18017]  INFO -- : 0:  activeresource (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activeresource-3.2.11.gemspec
+I, [2014-02-10T20:16:37.450093 #18017]  INFO -- : 0:  atomic (1.1.14) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-10T20:17:09.164842 #18017]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-02-10T20:17:29.268822 #18017]  INFO -- : 0:  cancan (1.6.10) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/cancan-1.6.10.gemspec
+I, [2014-02-10T20:17:29.271344 #18017]  INFO -- : 0:  json (1.8.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-02-10T20:17:55.277690 #18017]  INFO -- : 0:  carrierwave (0.9.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/carrierwave-0.9.0.gemspec
+I, [2014-02-10T20:17:55.279546 #18017]  INFO -- : 0:  coffee-script-source (1.6.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-02-10T20:17:55.279945 #18017]  INFO -- : 0:  execjs (2.0.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-10T20:17:55.280391 #18017]  INFO -- : 0:  coffee-script (2.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-10T20:18:19.412576 #18017]  INFO -- : 0:  rack-ssl (1.3.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-02-10T20:18:49.615246 #18017]  INFO -- : 0:  rdoc (3.12.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rdoc-3.12.2.gemspec
+I, [2014-02-10T20:18:49.617251 #18017]  INFO -- : 0:  thor (0.18.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-10T20:19:26.949084 #18017]  INFO -- : 0:  railties (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/railties-3.2.11.gemspec
+I, [2014-02-10T20:19:42.158616 #18017]  INFO -- : 0:  coffee-rails (3.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-02-10T20:19:42.159767 #18017]  INFO -- : 0:  columnize (0.3.6) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/columnize-0.3.6.gemspec
+I, [2014-02-10T20:20:06.888782 #18017]  INFO -- : 0:  commonjs (0.2.7) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/commonjs-0.2.7.gemspec
+I, [2014-02-10T20:20:27.074807 #18017]  INFO -- : 0:  country_select (1.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/country_select-1.2.0.gemspec
+I, [2014-02-10T20:20:27.076307 #18017]  INFO -- : 0:  daemons (1.1.9) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-02-10T20:20:27.077092 #18017]  INFO -- : 0:  debugger-linecache (1.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-02-10T20:20:27.078864 #18017]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-02-10T20:20:27.079712 #18017]  INFO -- : 0:  debugger (1.6.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-1.6.2.gemspec
+I, [2014-02-10T20:20:46.698447 #18017]  INFO -- : 0:  orm_adapter (0.5.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-02-10T20:20:46.699578 #18017]  INFO -- : 0:  thread_safe (0.1.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-10T20:21:07.775326 #18017]  INFO -- : 0:  warden (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/warden-1.2.3.gemspec
+I, [2014-02-10T20:21:31.480966 #18017]  INFO -- : 0:  devise (3.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/devise-3.2.2.gemspec
+I, [2014-02-10T20:21:31.482226 #18017]  INFO -- : 0:  eventmachine (1.0.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/eventmachine-1.0.3.gemspec
+I, [2014-02-10T20:21:59.628006 #18017]  INFO -- : 0:  haml (4.1.0.alpha.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-02-10T20:22:24.620477 #18017]  INFO -- : 0:  haml-rails (0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/haml-rails-0.4.gemspec
+I, [2014-02-10T20:22:24.621943 #18017]  INFO -- : 0:  bundler (1.5.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-10T20:22:49.385013 #18017]  INFO -- : 0:  rails (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rails-3.2.11.gemspec
+I, [2014-02-10T20:23:15.145866 #18017]  INFO -- : 0:  has_moderated (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/has_moderated-1.2.3.gemspec
+I, [2014-02-10T20:24:18.506873 #18017]  INFO -- : 0:  hpricot (0.8.6) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/hpricot-0.8.6.gemspec
+I, [2014-02-10T20:24:41.076852 #18017]  INFO -- : 0:  sexp_processor (4.4.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-02-10T20:24:57.789636 #18017]  INFO -- : 0:  ruby_parser (3.1.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-02-10T20:25:17.627162 #18017]  INFO -- : 0:  html2haml (1.0.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/html2haml-1.0.1.gemspec
+I, [2014-02-10T20:25:17.632004 #18017]  INFO -- : 0:  jquery-rails (3.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-02-10T20:25:53.399521 #18017]  INFO -- : 0:  less (2.4.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/less-2.4.0.gemspec
+I, [2014-02-10T20:26:18.557194 #18017]  INFO -- : 0:  less-rails (2.4.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/less-rails-2.4.2.gemspec
+I, [2014-02-10T20:26:57.277433 #18017]  INFO -- : 0:  libv8 (3.16.14.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-10T20:26:57.278340 #18017]  INFO -- : 0:  ref (1.0.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/ref-1.0.5.gemspec
+E, [2014-02-10T20:27:34.621840 #18017] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    /opt/rbenv/versions/2.0.0-p247/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /opt/rbenv/versions/2.0.0-p247/bin:/opt/rbenv/libexec:/opt/rbenv/plugins/rbenv-vars/bin:/opt/rbenv/plugins/ruby-build/bin:/opt/rbenv/shims:/opt/rbenv/bin:/opt/rbenv/shims:/opt/rbenv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/vagrant/bin:/home/vagrant/bin
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/opt/rbenv/versions/2.0.0-p247/bin/ruby
+
+
+Gem files will remain installed in /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rmagick-2.13.2 for inspection.
+Results logged to /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rmagick-2.13.2/ext/RMagick/gem_make.out
+
+/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/ext/builder.rb:60:in `run'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:18:in `build'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:678:in `block (2 levels) in build_extensions'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:677:in `chdir'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:677:in `block in build_extensions'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:652:in `each'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:652:in `build_extensions'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/rubygems/installer.rb:218:in `install'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/opt/rbenv/versions/2.0.0-p247/bin/bundle:23:in `load'  \n/opt/rbenv/versions/2.0.0-p247/bin/bundle:23:in `<main>'
+I, [2014-02-10T20:47:34.838516 #17392]  INFO -- : 0:  rake (10.1.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rake-10.1.0.gemspec
+I, [2014-02-10T20:47:34.839913 #17392]  INFO -- : 0:  i18n (0.6.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/i18n-0.6.5.gemspec
+I, [2014-02-10T20:47:34.841555 #17392]  INFO -- : 0:  multi_json (1.8.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-02-10T20:47:34.843522 #17392]  INFO -- : 0:  activesupport (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activesupport-3.2.11.gemspec
+I, [2014-02-10T20:47:34.843945 #17392]  INFO -- : 0:  builder (3.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/builder-3.0.4.gemspec
+I, [2014-02-10T20:47:34.844437 #17392]  INFO -- : 0:  activemodel (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activemodel-3.2.11.gemspec
+I, [2014-02-10T20:47:34.848664 #17392]  INFO -- : 0:  erubis (2.7.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-10T20:47:34.852858 #17392]  INFO -- : 0:  journey (1.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/journey-1.0.4.gemspec
+I, [2014-02-10T20:47:34.854068 #17392]  INFO -- : 0:  rack (1.4.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-1.4.5.gemspec
+I, [2014-02-10T20:47:34.859162 #17392]  INFO -- : 0:  rack-cache (1.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-cache-1.2.gemspec
+I, [2014-02-10T20:47:34.871889 #17392]  INFO -- : 0:  rack-test (0.6.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-10T20:47:34.873082 #17392]  INFO -- : 0:  hike (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-10T20:47:34.874412 #17392]  INFO -- : 0:  tilt (1.4.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-10T20:47:34.877222 #17392]  INFO -- : 0:  sprockets (2.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sprockets-2.2.2.gemspec
+I, [2014-02-10T20:47:34.882998 #17392]  INFO -- : 0:  actionpack (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/actionpack-3.2.11.gemspec
+I, [2014-02-10T20:47:34.885696 #17392]  INFO -- : 0:  mime-types (1.25.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-10T20:47:34.886557 #17392]  INFO -- : 0:  polyglot (0.3.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-10T20:47:34.893693 #17392]  INFO -- : 0:  treetop (1.4.15) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-10T20:47:34.894704 #17392]  INFO -- : 0:  mail (2.4.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/mail-2.4.4.gemspec
+I, [2014-02-10T20:47:34.902499 #17392]  INFO -- : 0:  actionmailer (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/actionmailer-3.2.11.gemspec
+I, [2014-02-10T20:47:34.907261 #17392]  INFO -- : 0:  arel (3.0.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/arel-3.0.3.gemspec
+I, [2014-02-10T20:47:34.911681 #17392]  INFO -- : 0:  tzinfo (0.3.38) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-10T20:47:34.916562 #17392]  INFO -- : 0:  activerecord (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activerecord-3.2.11.gemspec
+I, [2014-02-10T20:47:34.918221 #17392]  INFO -- : 0:  activeresource (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/activeresource-3.2.11.gemspec
+I, [2014-02-10T20:47:34.921878 #17392]  INFO -- : 0:  atomic (1.1.14) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-10T20:47:34.925694 #17392]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-02-10T20:47:34.926368 #17392]  INFO -- : 0:  cancan (1.6.10) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/cancan-1.6.10.gemspec
+I, [2014-02-10T20:47:34.930125 #17392]  INFO -- : 0:  json (1.8.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-02-10T20:47:34.935167 #17392]  INFO -- : 0:  carrierwave (0.9.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/carrierwave-0.9.0.gemspec
+I, [2014-02-10T20:47:34.938843 #17392]  INFO -- : 0:  coffee-script-source (1.6.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-02-10T20:47:34.940157 #17392]  INFO -- : 0:  execjs (2.0.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-10T20:47:34.941908 #17392]  INFO -- : 0:  coffee-script (2.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-10T20:47:34.946457 #17392]  INFO -- : 0:  rack-ssl (1.3.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rack-ssl-1.3.3.gemspec
+I, [2014-02-10T20:47:34.949509 #17392]  INFO -- : 0:  rdoc (3.12.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rdoc-3.12.2.gemspec
+I, [2014-02-10T20:47:34.954803 #17392]  INFO -- : 0:  thor (0.18.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-10T20:47:34.958602 #17392]  INFO -- : 0:  railties (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/railties-3.2.11.gemspec
+I, [2014-02-10T20:47:34.962022 #17392]  INFO -- : 0:  coffee-rails (3.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/coffee-rails-3.2.2.gemspec
+I, [2014-02-10T20:47:34.965813 #17392]  INFO -- : 0:  columnize (0.3.6) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/columnize-0.3.6.gemspec
+I, [2014-02-10T20:47:34.967667 #17392]  INFO -- : 0:  commonjs (0.2.7) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/commonjs-0.2.7.gemspec
+I, [2014-02-10T20:47:34.969843 #17392]  INFO -- : 0:  country_select (1.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/country_select-1.2.0.gemspec
+I, [2014-02-10T20:47:34.975280 #17392]  INFO -- : 0:  daemons (1.1.9) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-02-10T20:47:34.978123 #17392]  INFO -- : 0:  debugger-linecache (1.2.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-02-10T20:47:34.980682 #17392]  INFO -- : 0:  debugger-ruby_core_source (1.2.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-ruby_core_source-1.2.4.gemspec
+I, [2014-02-10T20:47:34.982965 #17392]  INFO -- : 0:  debugger (1.6.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/debugger-1.6.2.gemspec
+I, [2014-02-10T20:47:34.988308 #17392]  INFO -- : 0:  orm_adapter (0.5.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-02-10T20:47:34.991497 #17392]  INFO -- : 0:  thread_safe (0.1.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-10T20:47:34.993125 #17392]  INFO -- : 0:  warden (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/warden-1.2.3.gemspec
+I, [2014-02-10T20:47:34.998896 #17392]  INFO -- : 0:  devise (3.2.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/devise-3.2.2.gemspec
+I, [2014-02-10T20:47:35.002063 #17392]  INFO -- : 0:  eventmachine (1.0.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/eventmachine-1.0.3.gemspec
+I, [2014-02-10T20:47:35.004802 #17392]  INFO -- : 0:  haml (4.1.0.alpha.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/haml-4.1.0.alpha.2.gemspec
+I, [2014-02-10T20:47:35.006161 #17392]  INFO -- : 0:  haml-rails (0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/haml-rails-0.4.gemspec
+I, [2014-02-10T20:47:35.009238 #17392]  INFO -- : 0:  bundler (1.5.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-10T20:47:35.011827 #17392]  INFO -- : 0:  rails (3.2.11) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rails-3.2.11.gemspec
+I, [2014-02-10T20:47:35.014182 #17392]  INFO -- : 0:  has_moderated (1.2.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/has_moderated-1.2.3.gemspec
+I, [2014-02-10T20:47:35.015109 #17392]  INFO -- : 0:  hpricot (0.8.6) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/hpricot-0.8.6.gemspec
+I, [2014-02-10T20:47:35.016889 #17392]  INFO -- : 0:  sexp_processor (4.4.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sexp_processor-4.4.0.gemspec
+I, [2014-02-10T20:47:35.021674 #17392]  INFO -- : 0:  ruby_parser (3.1.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/ruby_parser-3.1.3.gemspec
+I, [2014-02-10T20:47:35.023777 #17392]  INFO -- : 0:  html2haml (1.0.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/html2haml-1.0.1.gemspec
+I, [2014-02-10T20:47:35.025235 #17392]  INFO -- : 0:  jquery-rails (3.0.4) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-02-10T20:47:35.028844 #17392]  INFO -- : 0:  less (2.4.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/less-2.4.0.gemspec
+I, [2014-02-10T20:47:35.032862 #17392]  INFO -- : 0:  less-rails (2.4.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/less-rails-2.4.2.gemspec
+I, [2014-02-10T20:47:35.035009 #17392]  INFO -- : 0:  libv8 (3.16.14.3) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-10T20:47:35.036861 #17392]  INFO -- : 0:  ref (1.0.5) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/ref-1.0.5.gemspec
+I, [2014-02-10T20:48:22.003625 #17392]  INFO -- : 0:  rmagick (2.13.2) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/rmagick-2.13.2.gemspec
+I, [2014-02-10T20:48:52.004336 #17392]  INFO -- : 0:  sass (3.2.12) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-02-10T20:49:23.004810 #17392]  INFO -- : 0:  sass-rails (3.2.6) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sass-rails-3.2.6.gemspec
+I, [2014-02-10T20:49:50.041812 #17392]  INFO -- : 0:  simple_form (2.1.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/simple_form-2.1.0.gemspec
+I, [2014-02-10T20:49:50.043713 #17392]  INFO -- : 0:  sqlite3 (1.3.8) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-10T20:49:50.045268 #17392]  INFO -- : 0:  therubyracer (0.12.0) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/therubyracer-0.12.0.gemspec
+I, [2014-02-10T20:50:19.049078 #17392]  INFO -- : 0:  thin (1.6.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/thin-1.6.1.gemspec
+I, [2014-02-10T20:50:48.499904 #17392]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-02-10T20:51:14.944522 #17392]  INFO -- : 0:  uglifier (2.3.1) from /opt/rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/specifications/uglifier-2.3.1.gemspec

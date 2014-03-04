@@ -1,0 +1,23 @@
+class FriendRequest < ActiveRecord::Base
+  attr_accessible :accepted, :declined, :from_user_id, :message_id, :reply_message_id, :to_user_id, :user_id ,:message
+  belongs_to :message
+
+validates :from_user_id, :uniqueness => { :scope => [:to_user_id,:accepted],:message => "you have already sent a friend's request" } ,:on => :create
+
+
+
+def from_user
+ User.find(from_user_id)
+end
+def to_user
+ User.find(to_user_id)
+end
+  def cancel_friend_request
+
+  end
+
+  def accept_friend_request
+
+  end
+
+end

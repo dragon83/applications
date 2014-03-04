@@ -1,0 +1,7 @@
+= simple_form_for @sub_caste, :html => { :class => 'form-horizontal' } do |f|
+  = f.input :caste_id
+  = f.input :caste_name
+  = f.input :religion_id
+  .form-actions
+    = f.button :submit, :class => 'btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), sub_castes_path, :class => 'btn'

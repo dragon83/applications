@@ -1,0 +1,19 @@
+.bs-docs-grid
+  .row-fluid.show-grid
+    .span1
+      = f.input :work_country,:collection => Country.all,:label_method => :name,:value_method => :id,:label => "Work Country" ,:include_blank => false
+  .row-fluid.show-grid
+    .span1
+      = f.input :work_state,:collection => State.all,:label_method => :name,:value_method => :id,:label => "Work State" ,:include_blank => false
+  .row-fluid.show-grid
+    .span1
+      = f.input :work_city,:collection => City.all,:label_method => :name,:value_method => :id,:label => "Work City" ,:include_blank => false
+  .row-fluid.show-grid
+    .span1
+      = f.input :education,:collection => Education.all,:label_method => :name,:value_method => :id,:label => "Education" ,:include_blank => false
+  .row-fluid.show-grid
+    .span1
+      = f.input :profession,:collection => Profession.all,:label_method => :name,:value_method => :id,:label => "Proffession" ,:include_blank => false
+  .row-fluid.show-grid
+    .span1
+      = f.input :special_status,:collection => SpecialStatus.all,:label_method => :name,:value_method => :id,:label => "Special Status" ,:include_blank => true

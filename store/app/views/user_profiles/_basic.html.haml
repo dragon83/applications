@@ -1,0 +1,60 @@
+.bs-docs
+  .bs-docs-grid
+    .row-fluid.show-grid
+      .span12
+    .row-fluid.show-grid
+      .span2
+        %a.thumbnail
+          = image_tag(@user_profile.primary_thumb_pic)
+      .span10
+        .bs-docs-grid
+          .row-fluid.show-grid
+            .span4
+              %strong= model_class.human_attribute_name(:gender) + ':'
+              = @user_profile.gender ? "Groom" : "Bride"
+            .span4
+              %strong= model_class.human_attribute_name(:age) + ':'
+              = @user_profile.age
+            .span4
+              %strong= model_class.human_attribute_name(:height) + ':'
+              = @user_profile.height.nil? ? '' : "#{(@user_profile.height.to_i/30.48).to_i} ft #{((@user_profile.height/2.54).to_i - (((@user_profile.height/30.48).to_i)*12)).to_i} inch"
+          .row-fluid.show-grid
+            .span4
+              %strong= model_class.human_attribute_name(:religion_id) + ':'
+              = @user_profile.religion.nil? ? "" :  @user_profile.religion.name
+            .span4
+              %strong= model_class.human_attribute_name(:caste) + ':'
+              = @user_profile.caste.nil? ? "" :  @user_profile.caste.name
+            .span4
+              %strong= model_class.human_attribute_name(:sub_caste) + ':'
+              = @user_profile.sub_caste.nil? ? "" :  @user_profile.sub_caste.caste_name
+          .row-fluid.show-grid
+            .span4
+              %strong= model_class.human_attribute_name(:marital_status) + ':'
+              = @user_profile.marital_status.nil? ? '' : MaritalStatus.find(@user_profile.marital_status).name
+            .span4
+              %strong= model_class.human_attribute_name(:work_city) + ':'
+              = @user_profile.work_city.nil? ? '' : City.find(@user_profile.work_city).name
+            .span4
+              %strong= model_class.human_attribute_name(:mother_tongue) + ':'
+              = @user_profile.mother_tongue
+          .row-fluid.show-grid
+            .span4
+              %strong= model_class.human_attribute_name(:mangalik) + ':'
+              = @user_profile.mangalik
+            .span4
+              %strong= model_class.human_attribute_name(:special_status) + ':'
+              = @user_profile.special_status.nil? ? '' : SpeciaStatus.find(@user_profile.special_status).name
+            .span4
+              %strong= model_class.human_attribute_name(:food_habit) + ':'
+              = @user_profile.food_habit
+          .row-fluid.show-grid
+            .span4
+              %strong= model_class.human_attribute_name(:education) + ':'
+              = @user_profile.education.nil? ? '' : Education.find(@user_profile.education).name
+            .span4
+              %strong= model_class.human_attribute_name(:profession) + ':'
+              = @user_profile.profession.nil? ? '' : Profession.find(@user_profile.profession).name
+            .span4
+              %strong= model_class.human_attribute_name(:food_habit) + ':'
+              = @user_profile.food_habit

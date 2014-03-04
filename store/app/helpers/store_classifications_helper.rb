@@ -1,0 +1,2 @@
+module StoreClassificationsHelper
+end

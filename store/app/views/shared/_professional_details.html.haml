@@ -1,0 +1,7 @@
+%h1 Professional Details
+= f.simple_fields_for(:user_profile) do |profile|
+  = profile.input :salary
+  = profile.input :profession
+  = profile.input :work_city
+  = profile.input :work_state
+

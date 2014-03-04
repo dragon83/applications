@@ -1,0 +1,21 @@
+- model_class = UserFilterAttribute
+.page-header
+  %h1=t '.title', :default => model_class.model_name.human
+
+%p
+  %strong= model_class.human_attribute_name(:user_filter_id) + ':'
+  %br
+  = @user_filter_attribute.user_filter_id
+%p
+  %strong= model_class.human_attribute_name(:filter_attribute) + ':'
+  %br
+  = @user_filter_attribute.filter_attribute
+%p
+  %strong= model_class.human_attribute_name(:field_type) + ':'
+  %br
+  = @user_filter_attribute.field_type
+
+.form-actions
+  = link_to t('.back', :default => t("helpers.links.back")), user_filter_attributes_path, :class => 'btn'
+  = link_to t('.edit', :default => t("helpers.links.edit")), edit_user_filter_attribute_path(@user_filter_attribute), :class => 'btn'
+  = link_to t('.destroy', :default => t("helpers.links.destroy")), user_filter_attribute_path(@user_filter_attribute), :method => "delete", :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-danger'

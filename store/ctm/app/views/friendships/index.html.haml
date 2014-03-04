@@ -1,0 +1,25 @@
+- model_class = User
+.page-header
+  %h4=t '.title', :default => "My Accepted Members :"
+%table.table.table-striped
+  %tbody
+    - current_user.accepteds.each do |accepted|
+      -user = accepted.friend
+      %tr
+        %td
+          = link_to "Full Profile >>", user_profile_path(user.user_profile), :class => 'btn'
+          %a.btn.btn-primary{"type" => "request_friendship","data-toggle" => "modal", "data-target" => "#myInterestModal","href" => "#{new_cancel_path(:friend_request_id => accepted.friend_request_id)}","id" => "cancel_friendship_button_#{user.id}"}
+            Cancel Interest
+          %a.btn.btn-primary{"type" => "request_friendship","data-toggle" => "modal", "data-target" => "#myInterestModal","href" => "#{new_cancel_path(:friend_request_id => accepted.friend_request_id)}","id" => "send_mail_button_#{user.id}"}
+            Send Message
+          - @user_profile = user.user_profile
+          = render :partial => "/user_profiles/basic" ,:locals => { :model_class => UserProfile }
+      %tr
+        %td
+#myInterestModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+    %h3#myModalLabel Interest
+  .modal-body
+  .modal-footer
+    %button.btn{"data-dismiss" => "modal"} Close

@@ -1,0 +1,2 @@
+module ApprovalAdminHelper
+end

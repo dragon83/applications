@@ -1,0 +1,2 @@
+module SpecialStatusesHelper
+end

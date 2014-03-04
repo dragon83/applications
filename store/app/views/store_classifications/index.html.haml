@@ -1,0 +1,19 @@
+%h1 Listing store_classifications
+
+%table
+  %tr
+    %th Description
+    %th
+    %th
+    %th
+
+  - @store_classifications.each do |store_classification|
+    %tr
+      %td= store_classification.description
+      %td= link_to 'Show', store_classification
+      %td= link_to 'Edit', edit_store_classification_path(store_classification)
+      %td= link_to 'Destroy', store_classification, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Store classification', new_store_classification_path

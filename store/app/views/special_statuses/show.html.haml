@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @special_status.name
+
+= link_to 'Edit', edit_special_status_path(@special_status)
+\|
+= link_to 'Back', special_statuses_path
